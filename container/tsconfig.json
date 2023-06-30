@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "esnext",
+    "target": "es5",
+    "esModuleInterop": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "baseUrl": "./src",
+    "paths": {
+      "*": ["types/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "exclude": ["node_modules"]
+}
